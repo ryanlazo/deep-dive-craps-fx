@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.VBox?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToggleButton?>
+<VBox
+  xmlns="http://javafx.com/javafx"
+  xmlns:fx="http://javafx.com/fxml"
+  fx:id="root"
+  fx:controller="edu.cnm.deepdive.craps.Controller">
+
+  <stylesheets>
+    <URL value="@styles.css" />
+  </stylesheets>
+
+  <ListView
+  fx:id="rollsList">
+  </ListView>
+
+  <Text
+    fx:id="tally"
+  text="%tallyFormat">
+  </Text>
+
+  <HBox
+    fx:id="buttonBox">
+
+    <Button
+      fx:id="step"
+      text="%playTitle"
+      onAction="#step"/>
+
+    <ToggleButton
+      fx:id="run"
+      text="%runTitle"
+      onAction="#run"/>
+
+    <Button
+      fx:id="reset"
+      text="%resetTitle"
+      onAction="#reset"/>
+
+  </HBox>
+
+
+
+</VBox>

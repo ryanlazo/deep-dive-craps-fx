@@ -1,0 +1,43 @@
+#root {
+  -fx-padding: 10;
+  -fx-pref-width: 300;
+  -fx-pref-height: 400;
+  -fx-alignment: bottom-center;
+  -fx-spacing: 10;
+}
+
+#buttonBox {
+  -fx-alignment: center;
+  -fx-spacing: 10;
+}
+
+#tally {
+
+}
+
+#rollsList {
+  -fx-fill-width: true;
+  -fx-pref-height: 350;
+
+
+}
+
+.roll {
+  -fx-spacing: 10;
+  -fx-padding: 5 0 5 50;
+  -fx-alignment: center-left;
+}
+
+.roll Text {
+  -fx-font-size: 20;
+  -fx-font-weight: bold;
+}
+
+.win {
+  -fx-background-color: blue;
+}
+
+.loss {
+  -fx-background-color:red;
+}
+
